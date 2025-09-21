@@ -1,3 +1,4 @@
 # git-demo
 This is my first Git repository.
-auther - Nilesh Yadav
+<br>
+author - Nilrsh Yadav
