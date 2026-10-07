@@ -34,3 +34,50 @@
 // console.log(loginUserMassage())
 
 
+
+
+
+// when is don't now how may parameter function will recieve 
+// (...)is called spread prerator as well as rest operator based on their us case
+
+
+// function calculateCartPrice(... num1){
+
+//     return num1;
+// }
+
+// console.log(calculateCartPrice(1,2,3,4,5,5,66,3))
+// let n=calculateCartPrice(1,2,3,4,5,5,66,3)
+// console.log(typeof n)
+
+// function calculateCartPrice(num1,num2,... num3){
+
+//     return num3;
+// }
+
+// console.log(calculateCartPrice(1,2,3,4,5,5,66,3))
+
+
+
+
+// passing a object as  a parameter
+
+// const user={
+//     username:"nilesh",
+//     price:199
+// }
+// function handelObject(anyObject){
+//     console.log(`username is ${anyObject.username}and price is ${anyObject.price}`)
+
+// }
+
+// handelObject(user)
+
+
+// passing array as a parameter 
+const myNewArray=[100,200,300]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+console.log(returnSecondValue(myNewArray))
