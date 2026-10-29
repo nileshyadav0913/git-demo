@@ -56,6 +56,17 @@
 
 //        reducer function
 
+ const myNum=[1,2,3,4,5,6,7,8]
+//  const myTotal =myNum.reduce(function(acc,curr){
+//     console.log(`acc:${ass}and currval:${curr}`)
+//     return acc+curr;
+// console.log(myNum)
+
+//  },0)
+
+//  using arrow function
+const mytotal=myNum.reduce((acc,curr)=> acc + curr,0)
+console.log(myNum)
 
 
 
