@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const div =document.createElement('div')// create a node
+    div.className="main"// to set class to the created node
+    div.id=Math.round(Math.random()*4+1)// to set a id to created node and each time it has new id
+    div.setAttribute("title","generated")
+    console.log(div)
+    div.style.backgroundColor="green"
+    div.style.padding="12px"
+    div.innerText="nilesh yadav"
+    // another way to add a text
+    // const addtext=documetn.createTextNode=("happy yadav")
+    // div.appendChild(addtext)
+
+    // to add cteated node 
+    document.body.appendChild(div)
+</script>
+</html>
