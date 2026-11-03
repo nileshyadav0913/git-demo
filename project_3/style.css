@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#wrapper {
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #4b0082;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+p {
+    font-size: 17px;
+    margin: 12px 0;
+    color: #333;
+}
+
+.form {
+    margin: 25px 0;
+}
+
+label {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #4b0082;
+}
+
+.guess {
+    padding: 12px;
+    font-size: 18px;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.guess:focus {
+    border-color: #764ba2;
+}
+
+.guessSubmit {
+    padding: 12px 25px;
+    font-size: 17px;
+    background-color: #6338bd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.guessSubmit:hover {
+    background-color: #4b0082;
+}
+
+.resultParas {
+    margin-top: 25px;
+}
+
+.guesses {
+    color: #6338bd;
+    font-weight: bold;
+}
+
+.lastResult {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.lowOrhi {
+    background-color: #eee5ff;
+    color: #4b0082;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.lowOrhi h2 {
+    font-size: 20px;
+}
+
+.button button {
+    padding: 12px 25px;
+    margin-top: 15px;
+    background-color: #219653;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: #176b3b;
+}
+
+@media (max-width: 500px) {
+    #wrapper {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    label {
+        font-size: 19px;
+    }
+}
